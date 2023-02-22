@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Duy Khuong Nguyen"
 title_separator          : "-"
 name                     : &name "Duy Khuong Nguyen"
-description              : &description "Research intern at VinAI Research"
+description              : &description "Research Resident at VinAI Research"
 url                      : https://duykhuongnguyen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "duykhuongnguyen/duykhuongnguyen.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Duy Khuong Nguyen"
   avatar           : "profile.jpeg"
-  bio              : "Research intern at VinAI Research"
+  bio              : "Research Resident at VinAI Research"
   location         : "Hanoi, Vietnam"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=y323M_cAAAAJ"
-  email            :  "duynk13@vinai.io"
+  email            :  "duykhuongnguyen277@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
