@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Duy Khuong Nguyen"
+title                    : "Home"
 title_separator          : "-"
-name                     : &name "Duy Khuong Nguyen"
-description              : &description "Research Resident at VinAI Research"
-url                      : https://duykhuongnguyen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Tung Nguyen"
+description              : &description "I'm from Vietnam. Doing research in Machine Learning."
+url                      : https://tung-nd.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "duykhuongnguyen/duykhuongnguyen.github.io"
+repository               : "tung-nd/tung-nd.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Duy Khuong Nguyen"
-  avatar           : "profile.jpeg"
-  bio              : "Research Resident at VinAI Research"
-  location         : "Hanoi, Vietnam"
+  name             : "Tung Nguyen"
+  avatar           : "profile.jpg"
+  bio              : "PhD student in CS at UCLA. Interested in Decision Making, Sequence Modeling, and Climate Change"
+  location         : "Los Angeles"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=y323M_cAAAAJ"
-  email            :  "duykhuongnguyen277@gmail.com"
+  googlescholar    : "https://scholar.google.com.vn/citations?user=F9mgq3sAAAAJ&hl=en"
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "duykhuongnguyen"
+  github           : "tung-nd"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : 
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "Cris Nguyen"
+  twitter          : "tungnd_13"
   vine             :
   weibo            :
   xing             :
