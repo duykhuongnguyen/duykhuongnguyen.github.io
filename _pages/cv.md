@@ -13,7 +13,6 @@ redirect_from:
 ====== -->
 <h2 style="color:#87CEEB">Education</h2>
 
-**University of California, Los Angeles (UCLA) | 2021-Present**   
 **Hanoi University of Science and Technology (HUST) | 2015-2020**
 *Bachelor in Computer Science*
   * Thesis: Multi-task calibration of Sensory Data with Generative Adversarial Networks
