@@ -19,7 +19,7 @@ redirect_from:
 
 # About me
 
-I am a research resident at [VinAI Research](https://www.vinai.io) under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net). I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
+I am an AI Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
 
 My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse and applications of graph neural networks.
 
