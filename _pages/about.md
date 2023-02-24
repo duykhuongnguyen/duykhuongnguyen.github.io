@@ -72,13 +72,12 @@ My research interests lie on the intersection of model interpretability and robu
 </div>
 </div> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2023</div><img src='images/LRI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2023</div><img src='images/dirrac.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Distributionally Robust Recourse Action](https://openreview.net/forum?id=m22XrToDacC) \\
 **Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
-
-<a href="https://openreview.net/forum?id=m22XrToDacC"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR%272023&color=blue"> </a>         
+<a href="https://openreview.net/forum?id=m22XrToDacC"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR%272023&color=blue"> </a>
 <a href="https://arxiv.org/abs/2302.11211"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/DiRRAc"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 <!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
@@ -88,7 +87,7 @@ My research interests lie on the intersection of model interpretability and robu
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISTATS 2022</div><img src='images/GSAT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISTATS 2022</div><img src='images/frpd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
