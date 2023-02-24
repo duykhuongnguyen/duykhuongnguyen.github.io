@@ -28,7 +28,7 @@ My research interests lie on the intersection of model interpretability and robu
 
 # 🔥 News
 
-- *January 2023*: Our paper [Distributionally Robust Recourse Action](https://openreview.net/forum?id=m22XrToDacC) is accepted to ICLR 2023!
+- *January 2023*: Our paper [Distributionally Robust Recourse Action](https://openreview.net/forum?id=E3ip6qBLF7) is accepted to ICLR 2023!
 - *January 2023*: Our paper [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) is accepted to AISTATS 2023!
 
 <details>
@@ -75,9 +75,10 @@ My research interests lie on the intersection of model interpretability and robu
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2023</div><img src='images/dirrac.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Distributionally Robust Recourse Action](https://openreview.net/forum?id=m22XrToDacC) \\
+[Distributionally Robust Recourse Action](https://openreview.net/forum?id=E3ip6qBLF7) \\
 **Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
-<a href="https://openreview.net/forum?id=m22XrToDacC"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"> </a>
+The Eleventh International Conference on Learning Representations (ICLR), 2023. \\
+<a href="https://openreview.net/forum?id=E3ip6qBLF7"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"> </a>
 <a href="https://arxiv.org/abs/2302.11211"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/DiRRAc"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 <!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
@@ -92,11 +93,7 @@ My research interests lie on the intersection of model interpretability and robu
 
 [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
 **Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
-<!-- <a href="https://arxiv.org/abs/2201.12987"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
-<a href="https://github.com/Graph-COM/GSAT"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
-<a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://img.shields.io/badge/-Colab-grey?logo=googlecolab&logoColor=white" alt="Colab"></a>
-<a> <img src="https://img.shields.io/badge/Video-grey?logo=airplayvideo&logoColor=white" alt="Video"></a>
-<a> <img src="https://img.shields.io/badge/Slides-grey?&logo=MicrosoftPowerPoint&logoColor=white" alt="Slides"></a> -->
+The 26th International Conference on Artificial Intelligence and Statistics (AISTATS), 2023. \\
 <a href="https://arxiv.org/abs/2302.11213">_<img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS 2023&color=blue">_</a> 
 <a href="https://arxiv.org/abs/2302.11213"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
@@ -109,22 +106,22 @@ My research interests lie on the intersection of model interpretability and robu
 
 [Robust Bayesian Recourse](https://openreview.net/forum?id=BqIM6SIoqgq) \\
 Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen. \\
+The 38th Conference on Uncertainty in Artificial Intelligence (UAI), 2022. \\
 <a href="https://openreview.net/forum?id=BqIM6SIoqgq"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=blue"> </a>
 <a href="https://arxiv.org/abs/2206.10833"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>                   
 <a href="https://github.com/VinAIResearch/robust-bayesian-recourse"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
- 
-</div>                                               
-</div>                                               
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2022</div><img src='images/copa.png' alt="sym" width="100%"></div></div>     
 <div class='paper-box-text' markdown="1"> 
                                                                                                                                                             
 [Counterfactual Plans under Distributional Ambiguity](https://openreview.net/forum?id=noaG7SrPVK0) \\
-Ngoc Bui, **Duy Nguyen**, Viet Anh Nguyen. \\                                                                        
+Ngoc Bui, **Duy Nguyen**, Viet Anh Nguyen. \\
+The Tenth International Conference on Learning Representations (ICLR), 2022. \\
 <a href="https://openreview.net/forum?id=noaG7SrPVK0"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2022&color=blue"> </a>
-<a href="https://arxiv.org/abs/2201.12487"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>                
-<a href="https://github.com/ngocbh/COPA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>      
-                                                                                                                                                            
+<a href="https://arxiv.org/abs/2201.12487"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
+<a href="https://github.com/ngocbh/COPA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a> 
 </div>                                                                                                                                                      
 </div> 
 
@@ -136,9 +133,9 @@ Ngoc Bui, **Duy Nguyen**, Viet Anh Nguyen. \\
 <!-- - [Interpretable and Generalizable Graph Learning via Stochastic Attention Mechanism](https://arxiv.org/abs/2201.12987), **Siqi Miao**, Miaoyuan Liu, Pan Li, **ICML 2022** ([codes](https://github.com/Graph-COM/GSAT)) -->
 
 # 🎖 Honors and Awards
-- *October 2022* Honorable Mention - INFORMS Undergraduate Operations Research Prize
-- *October 2022* Best Thesis Presentation Award - HUST
-- *September 2019* Excellence Scholarship for the academic year
+- *October 2022*: Honorable Mention - INFORMS Undergraduate Operations Research Prize
+- *October 2022*: Best Thesis Presentation Award - HUST
+- *September 2019*: Excellence Scholarship for the academic year
 
 <!-- # 💬 Invited Talks
 - *2022.11*, Inter-Experimental LHC Machine Learning Working Group, CERN
