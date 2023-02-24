@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# About me
+
 I am a research resident at [VinAI Research](https://www.vinai.io) under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at VinAI Research. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
 
 My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse and applications of graph neural networks.
@@ -74,8 +76,9 @@ My research interests lie on the intersection of model interpretability and robu
 <div class='paper-box-text' markdown="1">
 
 [Distributionally Robust Recourse Action](https://openreview.net/forum?id=m22XrToDacC) \\
-**Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. **ICLR 2023**\\
-<a href="https://openreview.net/forum?id=m22XrToDacC"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR%2723&color=blue"> </a>         
+**Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
+
+<a href="https://openreview.net/forum?id=m22XrToDacC"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR%272023&color=blue"> </a>         
 <a href="https://arxiv.org/abs/2302.11211"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/DiRRAc"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 <!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
@@ -89,7 +92,7 @@ My research interests lie on the intersection of model interpretability and robu
 <div class='paper-box-text' markdown="1">
 
 [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
-**Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. **AISTATS 2023**\\
+**Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
 <!-- <a href="https://arxiv.org/abs/2201.12987"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/Graph-COM/GSAT"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://img.shields.io/badge/-Colab-grey?logo=googlecolab&logoColor=white" alt="Colab"></a>
