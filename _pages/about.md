@@ -77,7 +77,7 @@ My research interests lie on the intersection of model interpretability and robu
 
 [Distributionally Robust Recourse Action](https://openreview.net/forum?id=m22XrToDacC) \\
 **Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
-<a href="https://openreview.net/forum?id=m22XrToDacC"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR%272023&color=blue"> </a>
+<a href="https://openreview.net/forum?id=m22XrToDacC"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"> </a>
 <a href="https://arxiv.org/abs/2302.11211"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/DiRRAc"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 <!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
@@ -97,13 +97,36 @@ My research interests lie on the intersection of model interpretability and robu
 <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://img.shields.io/badge/-Colab-grey?logo=googlecolab&logoColor=white" alt="Colab"></a>
 <a> <img src="https://img.shields.io/badge/Video-grey?logo=airplayvideo&logoColor=white" alt="Video"></a>
 <a> <img src="https://img.shields.io/badge/Slides-grey?&logo=MicrosoftPowerPoint&logoColor=white" alt="Slides"></a> -->
-<a href="https://arxiv.org/abs/2302.11213">_<img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS%2723&color=blue">_</a> 
+<a href="https://arxiv.org/abs/2302.11213">_<img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS 2023&color=blue">_</a> 
 <a href="https://arxiv.org/abs/2302.11213"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UAI 2022</div><img src='images/rbr.png' alt="sym" width="100%"></div></div>    
+<div class='paper-box-text' markdown="1">
+
+[Robust Bayesian Recourse](https://openreview.net/forum?id=BqIM6SIoqgq) \\
+Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen. \\
+<a href="https://openreview.net/forum?id=BqIM6SIoqgq"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=blue"> </a>
+<a href="https://arxiv.org/abs/2206.10833"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>                   
+<a href="https://github.com/VinAIResearch/robust-bayesian-recourse"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
+ 
+</div>                                               
+</div>                                               
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2022</div><img src='images/copa.png' alt="sym" width="100%"></div></div>     
+<div class='paper-box-text' markdown="1"> 
+                                                                                                                                                            
+[Counterfactual Plans under Distributional Ambiguity](https://openreview.net/forum?id=noaG7SrPVK0) \\
+Ngoc Bui, **Duy Nguyen**, Viet Anh Nguyen. \\                                                                        
+<a href="https://openreview.net/forum?id=noaG7SrPVK0"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2022&color=blue"> </a>
+<a href="https://arxiv.org/abs/2201.12487"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>                
+<a href="https://github.com/ngocbh/COPA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>      
+                                                                                                                                                            
+</div>                                                                                                                                                      
+</div> 
 
 <!-- https://img.shields.io/badge/Video-grey?style=plastic&logo=airplayvideo&logoColor=white -->
 <!-- https://img.shields.io/badge/Slides-grey?&logo=GoogleSheets&logoColor=white -->
