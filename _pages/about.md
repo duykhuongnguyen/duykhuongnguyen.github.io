@@ -88,7 +88,7 @@ The Eleventh International Conference on Learning Representations (ICLR), 2023. 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISTATS 2022</div><img src='images/frpd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISTATS 2023</div><img src='images/frpd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
