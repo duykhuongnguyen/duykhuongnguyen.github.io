@@ -19,7 +19,7 @@ redirect_from:
 
 # About me
 
-I am a research resident at [VinAI Research](https://www.vinai.io) under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at VinAI Research. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
+I am a research resident at [VinAI Research](https://www.vinai.io) under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net). I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
 
 My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse and applications of graph neural networks.
 
@@ -78,7 +78,7 @@ My research interests lie on the intersection of model interpretability and robu
 [Distributionally Robust Recourse Action](https://openreview.net/forum?id=E3ip6qBLF7) \\
 **Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
 The Eleventh International Conference on Learning Representations (ICLR), 2023. \\
-<a href="https://openreview.net/forum?id=E3ip6qBLF7"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"> </a>
+<a href="https://openreview.net/forum?id=E3ip6qBLF7"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"></a>
 <a href="https://arxiv.org/abs/2302.11211"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/DiRRAc"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 <!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
@@ -94,7 +94,7 @@ The Eleventh International Conference on Learning Representations (ICLR), 2023. 
 [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
 **Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
 The 26th International Conference on Artificial Intelligence and Statistics (AISTATS), 2023. \\
-<a href="https://arxiv.org/abs/2302.11213">_<img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS 2023&color=blue">_</a> 
+<a href="https://arxiv.org/abs/2302.11213"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS 2023&color=blue"></a> 
 <a href="https://arxiv.org/abs/2302.11213"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 
@@ -107,30 +107,23 @@ The 26th International Conference on Artificial Intelligence and Statistics (AIS
 [Robust Bayesian Recourse](https://openreview.net/forum?id=BqIM6SIoqgq) \\
 Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen. \\
 The 38th Conference on Uncertainty in Artificial Intelligence (UAI), 2022. \\
-<a href="https://openreview.net/forum?id=BqIM6SIoqgq"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=blue"> </a>
+<a href="https://openreview.net/forum?id=BqIM6SIoqgq"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=blue"></a>
 <a href="https://arxiv.org/abs/2206.10833"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>                   
 <a href="https://github.com/VinAIResearch/robust-bayesian-recourse"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2022</div><img src='images/copa.png' alt="sym" width="100%"></div></div>     
-<div class='paper-box-text' markdown="1"> 
-                                                                                                                                                            
+<div class='paper-box-text' markdown="1">
+
 [Counterfactual Plans under Distributional Ambiguity](https://openreview.net/forum?id=noaG7SrPVK0) \\
 Ngoc Bui, **Duy Nguyen**, Viet Anh Nguyen. \\
 The Tenth International Conference on Learning Representations (ICLR), 2022. \\
-<a href="https://openreview.net/forum?id=noaG7SrPVK0"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2022&color=blue"> </a>
+<a href="https://openreview.net/forum?id=noaG7SrPVK0"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2022&color=blue"></a>
 <a href="https://arxiv.org/abs/2201.12487"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/ngocbh/COPA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a> 
-</div>                                                                                                                                                      
+</div>
 </div> 
-
-<!-- https://img.shields.io/badge/Video-grey?style=plastic&logo=airplayvideo&logoColor=white -->
-<!-- https://img.shields.io/badge/Slides-grey?&logo=GoogleSheets&logoColor=white -->
-
-
-
-<!-- - [Interpretable and Generalizable Graph Learning via Stochastic Attention Mechanism](https://arxiv.org/abs/2201.12987), **Siqi Miao**, Miaoyuan Liu, Pan Li, **ICML 2022** ([codes](https://github.com/Graph-COM/GSAT)) -->
 
 # 🎖 Honors and Awards
 - *October 2022*: Honorable Mention - INFORMS Undergraduate Operations Research Prize
@@ -153,7 +146,7 @@ The Tenth International Conference on Learning Representations (ICLR), 2022. \\
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Experience
-- *August 2021 - Present*, Research Resident at VinAI Research, Vietnam
+- *August 2021 - Present*: Research Resident at VinAI Research, Vietnam
 
 <script type="text/javascript" src="assets/js/LastUpdateDate.js"></script>
 <a href='https://clustrmaps.com/site/1bgz9'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=70&t=n&d=a6iAb7ez3Wz6FmyA2Dk7WnttgXxsBmp_weXKt76zhWU&co=2d78ad&ct=ffffff' style="display: none;"/></a>

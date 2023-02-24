@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Duy Khuong Nguyen"
-description              : "Research Resident"
+description              : "Research Resident at VinAI Research, Vietnam"
 repository               : "duykhuongnguyen/duykhuongnguyen.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Duy Nguyen"
+  name             : "Duy Khuong Nguyen"
   avatar           : "images/avatar.png"
   bio              :
   location         : "Hanoi, Vietnam"
