@@ -118,8 +118,8 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
       {% endif %}
-      {% if author.resume %}
-        <li><a href="{{ author.resume }}"><i class="fab fa-fw fa-resume" aria-hidden="true"></i> Resume</a></li>
+      {% if author.cv %}
+        <li><a href="{{ author.resume }}"><i class="ai ai-cv ai-fw" aria-hidden="true"></i> Resume</a></li>
       {% endif %}
     </ul>
       <div class="author__urls_sm">
@@ -216,8 +216,8 @@
       {% if author.wikipedia %}
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
-      {% if author.resume %}
-        <a href="{{ author.resume }}"><i class="fab fa-fw fa-resume" aria-hidden="true"></i></a>
+      {% if author.cv %}
+        <a href="{{ author.cv }}"><i class="ai ai-cv ai-fw" aria-hidden="true"></i></a>
       {% endif %}
     </div>
   </div>
