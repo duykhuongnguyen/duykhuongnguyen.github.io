@@ -26,8 +26,8 @@ My research interests lie on the intersection of model interpretability and robu
 
 # 🔥 News
 
-- *January 2023*: Our paper [Distributionally Robust Recourse Action](https://openreview.net/forum?id=6u7mf9s2A9) is accepted to ICLR 2023!
-- *January 2023*: Our paper [Feasible Recourse Plan via Diverse Interpolation](https://openreview.net/forum?id=6u7mf9s2A9) is accepted to AISTATS 2023!
+- *January 2023*: Our paper [Distributionally Robust Recourse Action](https://openreview.net/forum?id=m22XrToDacC) is accepted to ICLR 2023!
+- *January 2023*: Our paper [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) is accepted to AISTATS 2023!
 
 <details>
   <summary>Old news in 2022</summary>
@@ -95,8 +95,7 @@ My research interests lie on the intersection of model interpretability and robu
 <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://img.shields.io/badge/-Colab-grey?logo=googlecolab&logoColor=white" alt="Colab"></a>
 <a> <img src="https://img.shields.io/badge/Video-grey?logo=airplayvideo&logoColor=white" alt="Video"></a>
 <a> <img src="https://img.shields.io/badge/Slides-grey?&logo=MicrosoftPowerPoint&logoColor=white" alt="Slides"></a> -->
-<a href="https://arxiv.org/abs/2302.11213"><img alt="License" src="h
-ttps://img.shields.io/static/v1?label=Pub&message=AISTATS%2723&color=blue"></a> 
+<a href="https://arxiv.org/abs/2302.11213">_<img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS%2723&color=blue">_</a> 
 <a href="https://arxiv.org/abs/2302.11213"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 
