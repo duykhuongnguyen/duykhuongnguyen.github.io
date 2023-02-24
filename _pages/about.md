@@ -127,8 +127,8 @@ The Tenth International Conference on Learning Representations (ICLR), 2022. \\
 
 # 🎖 Honors and Awards
 - *October 2022*: Honorable Mention - INFORMS Undergraduate Operations Research Prize
-- *October 2022*: Best Thesis Presentation Award - HUST
-- *September 2019*: Excellence Scholarship for the academic year
+- *October 2022*: Best Thesis Presentation Award - Hanoi University of Science and Technology
+- *September 2019*: Excellence Scholarship for the academic year - Hanoi University of Science and Technology
 
 <!-- # 💬 Invited Talks
 - *2022.11*, Inter-Experimental LHC Machine Learning Working Group, CERN
