@@ -85,7 +85,7 @@ My research interests lie on the intersection of model interpretability and robu
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2022</div><img src='images/GSAT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISTATS 2022</div><img src='images/GSAT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
@@ -96,7 +96,7 @@ My research interests lie on the intersection of model interpretability and robu
 <a> <img src="https://img.shields.io/badge/Video-grey?logo=airplayvideo&logoColor=white" alt="Video"></a>
 <a> <img src="https://img.shields.io/badge/Slides-grey?&logo=MicrosoftPowerPoint&logoColor=white" alt="Slides"></a> -->
 <a href="https://arxiv.org/abs/2302.11213"><img alt="License" src="h
-ttps://img.shields.io/static/v1?label=Pub&message=AISTATS%2722&color=blue"></a> 
+ttps://img.shields.io/static/v1?label=Pub&message=AISTATS%2723&color=blue"></a> 
 <a href="https://arxiv.org/abs/2302.11213"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 
