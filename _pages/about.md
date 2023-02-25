@@ -19,7 +19,7 @@ redirect_from:
 
 # About Me
 
-I am an Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
+I am a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
 
 My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse and applications of graph neural networks.
 
@@ -76,7 +76,7 @@ My research interests lie on the intersection of model interpretability and robu
 <div class='paper-box-text' markdown="1">
 
 [Distributionally Robust Recourse Action](https://openreview.net/forum?id=E3ip6qBLF7) \\
-**Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
+**Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen. \\
 The Eleventh International Conference on Learning Representations (ICLR), 2023. \\
 <a href="https://openreview.net/forum?id=E3ip6qBLF7"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"></a>
 <a href="https://arxiv.org/abs/2302.11211"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
@@ -92,7 +92,7 @@ The Eleventh International Conference on Learning Representations (ICLR), 2023. 
 <div class='paper-box-text' markdown="1">
 
 [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
-**Duy Nguyen**, Ngoc Bui, Viet Anh Nguyen. \\
+**Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen. \\
 The 26th International Conference on Artificial Intelligence and Statistics (AISTATS), 2023. \\
 <a href="https://arxiv.org/abs/2302.11213"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS 2023&color=blue"></a> 
 <a href="https://arxiv.org/abs/2302.11213"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
@@ -117,7 +117,7 @@ The 38th Conference on Uncertainty in Artificial Intelligence (UAI), 2022. \\
 <div class='paper-box-text' markdown="1">
 
 [Counterfactual Plans under Distributional Ambiguity](https://openreview.net/forum?id=noaG7SrPVK0) \\
-Ngoc Bui, **Duy Nguyen**, Viet Anh Nguyen. \\
+Ngoc Bui, **Duy Nguyen**, and Viet Anh Nguyen. \\
 The Tenth International Conference on Learning Representations (ICLR), 2022. \\
 <a href="https://openreview.net/forum?id=noaG7SrPVK0"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2022&color=blue"></a>
 <a href="https://arxiv.org/abs/2201.12487"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
