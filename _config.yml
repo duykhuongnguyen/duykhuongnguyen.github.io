@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Duy Khuong Nguyen"
-description              : "AI Resident at VinAI Research, Vietnam"
+title                    : "Duy Nguyen"
+description              : "Research Resident at VinAI Research, Vietnam"
 repository               : "duykhuongnguyen/duykhuongnguyen.github.io"
 google_scholar_stats_use_cdn : false
 
