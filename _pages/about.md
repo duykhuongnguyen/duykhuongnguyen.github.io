@@ -21,18 +21,19 @@ redirect_from:
 
 I am a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
 
-My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse and applications of graph neural networks.
+My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse, personalization and collaboration of large language models.
 
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
 
+- *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/pdf/2311.11349.pdf)
 - *January 2023*: Our paper [Distributionally Robust Recourse Action](https://openreview.net/forum?id=E3ip6qBLF7) is accepted to ICLR 2023!
 - *January 2023*: Our paper [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) is accepted to AISTATS 2023!
 
 <details>
-  <summary>Old news in 2022</summary>
+  <summary>Old news</summary>
 
   <div markdown="1">
   - *October 2022*: We are awarded an honorable mention at 2022 INFORMS Undergraduate Operations Research Prize!
