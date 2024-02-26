@@ -28,7 +28,8 @@ My research interests lie on the intersection of model interpretability and robu
 
 # 🔥 News
 
-- *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/pdf/2311.11349.pdf)
+- *February 2024*: New preprint [Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation](http://arxiv.org/abs/2402.15073)
+- *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/abs/2311.11349)
 - *January 2023*: Our paper [Distributionally Robust Recourse Action](https://openreview.net/forum?id=E3ip6qBLF7) is accepted to ICLR 2023!
 - *January 2023*: Our paper [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) is accepted to AISTATS 2023!
 
