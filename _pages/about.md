@@ -19,7 +19,7 @@ redirect_from:
 
 # About Me
 
-I am a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
+I am an incoming Ph.D. student at [Prof. Mohit Bansal's](https://www.cs.unc.edu/~mbansal/) group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Currently, I am a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
 
 My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse, personalization and collaboration of large language models.
 
@@ -28,6 +28,7 @@ My research interests lie on the intersection of model interpretability and robu
 
 # 🔥 News
 
+- *March 2024*: I will be joining [Prof. Mohit Bansal's](https://www.cs.unc.edu/~mbansal/) group as a Ph.D. student at UNC Chapel Hill this Fall!
 - *February 2024*: New preprint [Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation](http://arxiv.org/abs/2402.15073)
 - *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/abs/2311.11349)
 - *January 2023*: Our paper [Distributionally Robust Recourse Action](https://openreview.net/forum?id=E3ip6qBLF7) is accepted to ICLR 2023!
