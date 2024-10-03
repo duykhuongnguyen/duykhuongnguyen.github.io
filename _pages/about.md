@@ -19,7 +19,7 @@ redirect_from:
 
 # About Me
 
-I'm an incoming Ph.D. student at [Prof. Mohit Bansal's](https://www.cs.unc.edu/~mbansal/) group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Currently, I'm a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
+I am a Ph.D. student at [Prof. Mohit Bansal's](https://www.cs.unc.edu/~mbansal/) group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
 
 My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse, personalization and collaboration of large language models.
 
@@ -28,6 +28,7 @@ My research interests lie on the intersection of model interpretability and robu
 
 # 🔥 News
 
+- *October 2024*: New preprint [LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](https://arxiv.org/abs/2410.01735)
 - *May 2024*: Our paper [Cold-start Recommendation by Personalized Embedding Region Elicitation](https://arxiv.org/abs/2406.00973) is accepted to UAI 2024!
 - *March 2024*: I will be joining [Prof. Mohit Bansal's](https://www.cs.unc.edu/~mbansal/) group as a Ph.D. student at UNC Chapel Hill this Fall!
 - *February 2024*: New preprint [Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation](http://arxiv.org/abs/2402.15073)
