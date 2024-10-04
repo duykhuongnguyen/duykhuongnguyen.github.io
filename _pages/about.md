@@ -127,7 +127,7 @@ The 26th International Conference on Artificial Intelligence and Statistics (AIS
 [Robust Bayesian Recourse](https://openreview.net/forum?id=BqIM6SIoqgq) \\
 Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen. \\
 The 38th Conference on Uncertainty in Artificial Intelligence (UAI), 2022. \\
-<a href="https://openreview.net/forum?id=BqIM6SIoqgq"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=ref"></a>
+<a href="https://openreview.net/forum?id=BqIM6SIoqgq"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=red"></a>
 <a href="https://arxiv.org/abs/2206.10833"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/VinAIResearch/robust-bayesian-recourse"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 </div>
