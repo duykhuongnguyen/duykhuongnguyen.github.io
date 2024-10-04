@@ -29,7 +29,7 @@ My research focuses on enhancing the efficiency and robustness of large language
 
 - *October 2024*: New preprint [LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](https://arxiv.org/abs/2410.01735) on selecting the best-suited reward model for fine-tuning LLMs on a per-task or per-instance basis.
 - *May 2024*: Our paper [Cold-start Recommendation by Personalized Embedding Region Elicitation](https://arxiv.org/abs/2406.00973) is accepted to UAI 2024!
-- *March 2024*: I will be joining [Prof. Mohit Bansal's](https://www.cs.unc.edu/~mbansal/) group as a Ph.D. student at UNC Chapel Hill this Fall!
+- *March 2024*: I will be joining [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)'s group as a Ph.D. student at UNC Chapel Hill this Fall!
 - *February 2024*: New preprint [Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation](http://arxiv.org/abs/2402.15073) on personalized algorithmic recourse with preference elicitation.
 - *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/abs/2311.11349) on algorithmic recourse under distribution shift.
 - *January 2023*: Our paper [Distributionally Robust Recourse Action](https://arxiv.org/abs/2302.11211) is accepted to ICLR 2023!
@@ -82,7 +82,7 @@ My research focuses on enhancing the efficiency and robustness of large language
 [Cold-start Recommendation by Personalized Embedding Region Elicitation](https://openreview.net/forum?id=ciOkU5YpvU) \\
 Hieu Nguyen, **Duy Nguyen**, Khoa Doan, and Viet Anh Nguyen. \\
 The 40th Conference on Uncertainty in Artificial Intelligence (UAI), 2024. \\
-<a href="https://openreview.net/forum?id=ciOkU5YpvU"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"></a>
+<a href="https://openreview.net/forum?id=ciOkU5YpvU"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2024&color=red"></a>
 <a href="https://arxiv.org/abs/2406.00973"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/HieuNT91/recsys"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 <!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
@@ -114,7 +114,7 @@ The Eleventh International Conference on Learning Representations (ICLR), 2023. 
 [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
 **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen. \\
 The 26th International Conference on Artificial Intelligence and Statistics (AISTATS), 2023. \\
-<a href="https://arxiv.org/abs/2302.11213"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS 2023&color=blue"></a> 
+<a href="https://arxiv.org/abs/2302.11213"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS 2023&color=green"></a> 
 <a href="https://arxiv.org/abs/2302.11213"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 
@@ -127,7 +127,7 @@ The 26th International Conference on Artificial Intelligence and Statistics (AIS
 [Robust Bayesian Recourse](https://openreview.net/forum?id=BqIM6SIoqgq) \\
 Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen. \\
 The 38th Conference on Uncertainty in Artificial Intelligence (UAI), 2022. \\
-<a href="https://openreview.net/forum?id=BqIM6SIoqgq"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=blue"></a>
+<a href="https://openreview.net/forum?id=BqIM6SIoqgq"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=ref"></a>
 <a href="https://arxiv.org/abs/2206.10833"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
 <a href="https://github.com/VinAIResearch/robust-bayesian-recourse"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
 </div>
