@@ -19,20 +19,19 @@ redirect_from:
 
 # About Me
 
-I am a Ph.D. student at [Prof. Mohit Bansal's](https://www.cs.unc.edu/~mbansal/) group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor degree in computer science from Hanoi University of Science and Technology in 2022.
+I am a Ph.D. student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)’s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor's degree in Computer Science from Hanoi University of Science and Technology in 2022.
 
-My research interests lie on the intersection of model interpretability and robustness in machine learning. Lately, I have been focusing on algorithmic recourse, personalization and collaboration of large language models.
-
+My research focuses on enhancing the efficiency and robustness of large language models (LLMs). Specifically, I aim to improve LLMs performance through effective reward modeling and enhance their robustness. Additionally, I am interested in uncertainty estimation and model calibration in LLMs.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
 
-- *October 2024*: New preprint [LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](https://arxiv.org/abs/2410.01735)
+- *October 2024*: New preprint [LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](https://arxiv.org/abs/2410.01735) on selecting the best-suited reward model for fine-tuning LLMs on a per-task or per-instance basis.
 - *May 2024*: Our paper [Cold-start Recommendation by Personalized Embedding Region Elicitation](https://arxiv.org/abs/2406.00973) is accepted to UAI 2024!
 - *March 2024*: I will be joining [Prof. Mohit Bansal's](https://www.cs.unc.edu/~mbansal/) group as a Ph.D. student at UNC Chapel Hill this Fall!
-- *February 2024*: New preprint [Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation](http://arxiv.org/abs/2402.15073)
-- *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/abs/2311.11349)
+- *February 2024*: New preprint [Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation](http://arxiv.org/abs/2402.15073) on personalized algorithmic recourse with preference elicitation.
+- *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/abs/2311.11349) on algorithmic recourse under distribution shift.
 - *January 2023*: Our paper [Distributionally Robust Recourse Action](https://arxiv.org/abs/2302.11211) is accepted to ICLR 2023!
 - *January 2023*: Our paper [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) is accepted to AISTATS 2023!
 
@@ -76,6 +75,22 @@ My research interests lie on the intersection of model interpretability and robu
 <a href="https://github.com/Graph-COM/GSAT"><img src="https://img.shields.io/github/stars/Graph-COM/GSAT?style=social&label=Code+Stars" alt=""></a>
 </div>
 </div> -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UAI 2024</div><img src='images/pere.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Cold-start Recommendation by Personalized Embedding Region Elicitation](https://openreview.net/forum?id=ciOkU5YpvU) \\
+Hieu Nguyen, **Duy Nguyen**, Khoa Doan, and Viet Anh Nguyen. \\
+The 40th Conference on Uncertainty in Artificial Intelligence (UAI), 2024. \\
+<a href="https://openreview.net/forum?id=ciOkU5YpvU"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"></a>
+<a href="https://arxiv.org/abs/2406.00973"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
+<a href="https://github.com/HieuNT91/recsys"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
+<!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
+<!-- <a href="https://proceedings.mlr.press/v162/miao22a.html"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICML%2722&color=blue"> </a> -->
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2023</div><img src='images/dirrac.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

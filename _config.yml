@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Duy Nguyen"
-description              : "Research Resident at VinAI Research, Vietnam"
+description              : "Ph.D. student at UNC Chapel Hill"
 repository               : "duykhuongnguyen/duykhuongnguyen.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -24,7 +24,7 @@ author:
   name             : "Duy Nguyen"
   avatar           : "images/avatar.png"
   bio              :
-  location         : "Hanoi, Vietnam"
+  location         : "Chapel Hill, NC"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=y323M_cAAAAJ&hl=vi&authuser=1"
@@ -57,7 +57,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  cv               : "resume/DuyNguyen_Resume.pdf"
+  cv               : "resume/DuyNguyen_CV.pdf"
 
 
 # Reading Files
