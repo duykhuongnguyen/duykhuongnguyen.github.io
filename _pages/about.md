@@ -27,7 +27,7 @@ My research focuses on post-training methods for (multimodal) LLMs, including RL
 
 # 🔥 News
 
-- *February 2024*: New preprint [Multi-Attribute Steering of Language Models via Targeted Intervention](https://www.arxiv.org/abs/2502.12446) on steering multiple attributes of LLMs via targeted inference-time intervention.
+- *February 2025*: New preprint [Multi-Attribute Steering of Language Models via Targeted Intervention](https://www.arxiv.org/abs/2502.12446) on steering multiple attributes of LLMs via targeted inference-time intervention.
 - *October 2024*: New preprint [LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](https://arxiv.org/abs/2410.01735) on selecting the best-suited reward model for fine-tuning LLMs on a per-task or per-instance basis.
 - *May 2024*: Our paper [Cold-start Recommendation by Personalized Embedding Region Elicitation](https://arxiv.org/abs/2406.00973) is accepted to UAI 2024!
 - *March 2024*: I will be joining [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)'s group as a Ph.D. student at UNC Chapel Hill this Fall!
