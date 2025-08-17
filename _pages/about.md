@@ -19,27 +19,29 @@ redirect_from:
 
 # About Me
 
-I am a Ph.D. student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)’s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor's degree in Computer Science from Hanoi University of Science and Technology in 2022.
+I am a second-year Ph.D. student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)’s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor's degree in Computer Science from Hanoi University of Science and Technology in 2022.
 
-My research focuses on post-training methods for (multimodal) LLMs, including RLHF and Reward Modeling. Additionally, I'm very interested in mechanistic interpretability and inference-time interventions for LLM safety alignment.
+My research focuses on mechanistic interpretability and inference-time interventions for LLM safety alignment. Additionally, I'm interested in post-training methods for (multimodal) LLMs, including Reinforcement Learning from Human Feedback (RLHF) and Reinforcement Learning with Verifiable Rewards (RLVR).
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
 
+- *July 2025*: New preprint [GrAInS: Gradient-based Attribution for Inference-Time Steering of LLMs and VLMs](https://arxiv.org/abs/2507.18043) on using gradient attribution for steering LLMs and VLMs.
+- *May 2025*: [MAT-Steer](https://www.arxiv.org/abs/2502.12446) is accepted to ACL 2025!
 - *February 2025*: New preprint [Multi-Attribute Steering of Language Models via Targeted Intervention](https://www.arxiv.org/abs/2502.12446) on steering multiple attributes of LLMs via targeted inference-time intervention.
 - *October 2024*: New preprint [LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](https://arxiv.org/abs/2410.01735) on selecting the best-suited reward model for fine-tuning LLMs on a per-task or per-instance basis.
-- *May 2024*: Our paper [Cold-start Recommendation by Personalized Embedding Region Elicitation](https://arxiv.org/abs/2406.00973) is accepted to UAI 2024!
 - *March 2024*: I will be joining [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)'s group as a Ph.D. student at UNC Chapel Hill this Fall!
-- *February 2024*: New preprint [Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation](http://arxiv.org/abs/2402.15073) on personalized algorithmic recourse with preference elicitation.
-- *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/abs/2311.11349) on algorithmic recourse under distribution shift.
-- *January 2023*: Our paper [Distributionally Robust Recourse Action](https://arxiv.org/abs/2302.11211) is accepted to ICLR 2023!
-- *January 2023*: Our paper [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) is accepted to AISTATS 2023!
 
 <details>
   <summary>Old news</summary>
 
   <div markdown="1">
+  - *May 2024*: Our paper [Cold-start Recommendation by Personalized Embedding Region Elicitation](https://arxiv.org/abs/2406.00973) is accepted to UAI 2024!
+  - *February 2024*: New preprint [Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation](http://arxiv.org/abs/2402.15073) on personalized algorithmic recourse with preference elicitation.
+  - *November 2023*: New preprint [Coverage-Validity-Aware Algorithmic Recourse](https://arxiv.org/abs/2311.11349) on algorithmic recourse under distribution shift.
+  - *January 2023*: Our paper [Distributionally Robust Recourse Action](https://arxiv.org/abs/2302.11211) is accepted to ICLR 2023!
+  - *January 2023*: Our paper [Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) is accepted to AISTATS 2023!
   - *October 2022*: We are awarded an honorable mention at 2022 INFORMS Undergraduate Operations Research Prize!
   - *May 2022*: One paper accepted to UAI 2022!
   - *January 2022*: One paper accepted to ICLR 2022!
@@ -76,75 +78,33 @@ My research focuses on post-training methods for (multimodal) LLMs, including RL
 <a href="https://github.com/Graph-COM/GSAT"><img src="https://img.shields.io/github/stars/Graph-COM/GSAT?style=social&label=Code+Stars" alt=""></a>
 </div>
 </div> -->
+1. Multi-Attribute Steering of Language Models via Targeted Intervention
+   **Duy Nguyen**, Archiki Prasad, Elias Stengel-Eskin, and Mohit Bansal.
+   [Paper](https://aclanthology.org/2025.acl-long.1007/) [Code](https://github.com/duykhuongnguyen/MAT-Steer)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UAI 2024</div><img src='images/pere.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+1. Cold-start Recommendation by Personalized Embedding Region Elicitation
+   Hieu Nguyen, **Duy Nguyen**, Khoa Doan, and Viet Anh Nguyen.
+   [Paper](https://openreview.net/forum?id=ciOkU5YpvU) [Code](https://github.com/HieuNT91/recsys)
 
-[Cold-start Recommendation by Personalized Embedding Region Elicitation](https://openreview.net/forum?id=ciOkU5YpvU) \\
-Hieu Nguyen, **Duy Nguyen**, Khoa Doan, and Viet Anh Nguyen. \\
-The 40th Conference on Uncertainty in Artificial Intelligence (UAI), 2024. \\
-<a href="https://openreview.net/forum?id=ciOkU5YpvU"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2024&color=red"></a>
-<a href="https://arxiv.org/abs/2406.00973"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
-<a href="https://github.com/HieuNT91/recsys"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
-<!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
-<!-- <a href="https://proceedings.mlr.press/v162/miao22a.html"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICML%2722&color=blue"> </a> -->
+1. Coverage-Validity-Aware Algorithmic Recourse
+   Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen.
+   [Paper](https://arxiv.org/abs/2311.11349) [Code](https://github.com/ngocbh/cvas)
 
-</div>
-</div>
+1. Distributionally Robust Recourse Action
+   **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen.
+   [Paper](https://openreview.net/forum?id=E3ip6qBLF7) [Code](https://github.com/duykhuongnguyen/DiRRAc)
 
+1. Feasible Recourse Plan via Diverse Interpolation
+   **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen.
+   [Paper](https://arxiv.org/abs/2302.11213) [Code](https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2023</div><img src='images/dirrac.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+1. Robust Bayesian Recourse
+   Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen.
+   [Paper](https://openreview.net/forum?id=BqIM6SIoqgq) [Code](https://github.com/VinAIResearch/robust-bayesian-recourse)
 
-[Distributionally Robust Recourse Action](https://openreview.net/forum?id=E3ip6qBLF7) \\
-**Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen. \\
-The Eleventh International Conference on Learning Representations (ICLR), 2023. \\
-<a href="https://openreview.net/forum?id=E3ip6qBLF7"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2023&color=blue"></a>
-<a href="https://arxiv.org/abs/2302.11211"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
-<a href="https://github.com/duykhuongnguyen/DiRRAc"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
-<!-- <a href="https://colab.research.google.com/drive/1t0_4BxEJ0XncyYvn_VyEQhxwNMvtSUNx?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a> -->
-<!-- <a href="https://proceedings.mlr.press/v162/miao22a.html"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICML%2722&color=blue"> </a> -->
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AISTATS 2023</div><img src='images/frpd.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Feasible Recourse Plan via Diverse Interpolation](https://arxiv.org/abs/2302.11213) \\
-**Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen. \\
-The 26th International Conference on Artificial Intelligence and Statistics (AISTATS), 2023. \\
-<a href="https://arxiv.org/abs/2302.11213"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=AISTATS 2023&color=green"></a> 
-<a href="https://arxiv.org/abs/2302.11213"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
-<a href="https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UAI 2022</div><img src='images/rbr.png' alt="sym" width="100%"></div></div>    
-<div class='paper-box-text' markdown="1">
-
-[Robust Bayesian Recourse](https://openreview.net/forum?id=BqIM6SIoqgq) \\
-Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen. \\
-The 38th Conference on Uncertainty in Artificial Intelligence (UAI), 2022. \\
-<a href="https://openreview.net/forum?id=BqIM6SIoqgq"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=UAI 2022&color=red"></a>
-<a href="https://arxiv.org/abs/2206.10833"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
-<a href="https://github.com/VinAIResearch/robust-bayesian-recourse"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2022</div><img src='images/copa.png' alt="sym" width="100%"></div></div>     
-<div class='paper-box-text' markdown="1">
-
-[Counterfactual Plans under Distributional Ambiguity](https://openreview.net/forum?id=noaG7SrPVK0) \\
-Ngoc Bui, **Duy Nguyen**, and Viet Anh Nguyen. \\
-The Tenth International Conference on Learning Representations (ICLR), 2022. \\
-<a href="https://openreview.net/forum?id=noaG7SrPVK0"><img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICLR 2022&color=blue"></a>
-<a href="https://arxiv.org/abs/2201.12487"><img src="https://img.shields.io/badge/-Paper-grey?logo=gitbook&logoColor=white" alt="Paper"></a>
-<a href="https://github.com/ngocbh/COPA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a> 
-</div>
-</div> 
+1. Counterfactual Plans under Distributional Ambiguity
+   Ngoc Bui, **Duy Nguyen**, and Viet Anh Nguyen.
+   [Paper](https://openreview.net/forum?id=noaG7SrPVK0) [Code](https://github.com/ngocbh/COPA)
 
 # 🎖 Honors and Awards
 - *October 2022*: Honorable Mention - INFORMS Undergraduate Operations Research Prize
@@ -167,4 +127,5 @@ The Tenth International Conference on Learning Representations (ICLR), 2022. \\
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Experience
+- *May 2025 - August 2025*: Applied Scientist Intern at Amazon Science, USA
 - *August 2022 - August 2024*: Research Resident at VinAI Research, Vietnam
