@@ -28,7 +28,7 @@ My research focuses on mechanistic interpretability and inference-time intervent
 # 🔥 News
 
 - *July 2025*: New preprint [GrAInS: Gradient-based Attribution for Inference-Time Steering of LLMs and VLMs](https://arxiv.org/abs/2507.18043) on using gradient attribution for steering LLMs and VLMs.
-- *May 2025*: [MAT-Steer](https://www.arxiv.org/abs/2502.12446) is accepted to ACL 2025!
+- *May 2025*: [MAT-Steer](https://www.arxiv.org/abs/2502.12446) is accepted to ACL 2025! Thanks Elias for helping present the paper!
 - *February 2025*: New preprint [Multi-Attribute Steering of Language Models via Targeted Intervention](https://www.arxiv.org/abs/2502.12446) on steering multiple attributes of LLMs via targeted inference-time intervention.
 - *October 2024*: New preprint [LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits](https://arxiv.org/abs/2410.01735) on selecting the best-suited reward model for fine-tuning LLMs on a per-task or per-instance basis.
 - *March 2024*: I will be joining [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)'s group as a Ph.D. student at UNC Chapel Hill this Fall!
@@ -78,31 +78,31 @@ My research focuses on mechanistic interpretability and inference-time intervent
 <a href="https://github.com/Graph-COM/GSAT"><img src="https://img.shields.io/github/stars/Graph-COM/GSAT?style=social&label=Code+Stars" alt=""></a>
 </div>
 </div> -->
-1. Multi-Attribute Steering of Language Models via Targeted Intervention<br>
+**Multi-Attribute Steering of Language Models via Targeted Intervention**<br>
    **Duy Nguyen**, Archiki Prasad, Elias Stengel-Eskin, and Mohit Bansal.<br>
    <em>The 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025.</em> [Paper](https://aclanthology.org/2025.acl-long.1007/) [Code](https://github.com/duykhuongnguyen/MAT-Steer)
 
-1. Cold-start Recommendation by Personalized Embedding Region Elicitation<br>
+**Cold-start Recommendation by Personalized Embedding Region Elicitation**<br>
    Hieu Nguyen, **Duy Nguyen**, Khoa Doan, and Viet Anh Nguyen.<br>
    <em>The 40th Conference on Uncertainty in Artificial Intelligence (UAI), 2024.</em> [Paper](https://openreview.net/forum?id=ciOkU5YpvU) [Code](https://github.com/HieuNT91/recsys)
 
-1. Coverage-Validity-Aware Algorithmic Recourse<br>
+**Coverage-Validity-Aware Algorithmic Recourse**<br>
    Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen.<br>
    <em>Operations Research (OPRE), 2024.</em> [Paper](https://arxiv.org/abs/2311.11349) [Code](https://github.com/ngocbh/cvas)
 
-1. Distributionally Robust Recourse Action<br>
+**Distributionally Robust Recourse Action**<br>
    **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen.<br>
    <em>The Eleventh International Conference on Learning Representations (ICLR), 2023.</em> [Paper](https://openreview.net/forum?id=E3ip6qBLF7) [Code](https://github.com/duykhuongnguyen/DiRRAc)
 
-1. Feasible Recourse Plan via Diverse Interpolation<br>
+**Feasible Recourse Plan via Diverse Interpolation**<br>
    **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen.<br>
    <em>The 26th International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.</em> [Paper](https://arxiv.org/abs/2302.11213) [Code](https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation)
 
-1. Robust Bayesian Recourse<br>
+**Robust Bayesian Recourse**<br>
    Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen.<br>
    <em>The 38th Conference on Uncertainty in Artificial Intelligence (UAI), 2022.</em> [Paper](https://openreview.net/forum?id=BqIM6SIoqgq) [Code](https://github.com/VinAIResearch/robust-bayesian-recourse)
 
-1. Counterfactual Plans under Distributional Ambiguity<br>
+**Counterfactual Plans under Distributional Ambiguity**<br>
    Ngoc Bui, **Duy Nguyen**, and Viet Anh Nguyen.<br>
    <em>The Tenth International Conference on Learning Representations (ICLR), 2022.</em> [Paper](https://openreview.net/forum?id=noaG7SrPVK0) [Code](https://github.com/ngocbh/COPA)
 
