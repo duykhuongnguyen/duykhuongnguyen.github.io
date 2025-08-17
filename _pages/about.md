@@ -78,32 +78,39 @@ My research focuses on mechanistic interpretability and inference-time intervent
 <a href="https://github.com/Graph-COM/GSAT"><img src="https://img.shields.io/github/stars/Graph-COM/GSAT?style=social&label=Code+Stars" alt=""></a>
 </div>
 </div> -->
-1. Multi-Attribute Steering of Language Models via Targeted Intervention
-   **Duy Nguyen**, Archiki Prasad, Elias Stengel-Eskin, and Mohit Bansal.
+1. Multi-Attribute Steering of Language Models via Targeted Intervention<br>
+   **Duy Nguyen**, Archiki Prasad, Elias Stengel-Eskin, and Mohit Bansal.<br>
+   The 63rd Annual Meeting of the Association for Computational Linguistics (ACL), 2025.<br>
    [Paper](https://aclanthology.org/2025.acl-long.1007/) [Code](https://github.com/duykhuongnguyen/MAT-Steer)
 
-1. Cold-start Recommendation by Personalized Embedding Region Elicitation
-   Hieu Nguyen, **Duy Nguyen**, Khoa Doan, and Viet Anh Nguyen.
+1. Cold-start Recommendation by Personalized Embedding Region Elicitation<br>
+   Hieu Nguyen, **Duy Nguyen**, Khoa Doan, and Viet Anh Nguyen.<br>
+   The 40th Conference on Uncertainty in Artificial Intelligence (UAI), 2024.<br>
    [Paper](https://openreview.net/forum?id=ciOkU5YpvU) [Code](https://github.com/HieuNT91/recsys)
 
-1. Coverage-Validity-Aware Algorithmic Recourse
-   Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen.
+1. Coverage-Validity-Aware Algorithmic Recourse<br>
+   Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen.<br>
+   Operations Research (OPRE), 2024.<br>
    [Paper](https://arxiv.org/abs/2311.11349) [Code](https://github.com/ngocbh/cvas)
 
-1. Distributionally Robust Recourse Action
-   **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen.
+1. Distributionally Robust Recourse Action<br>
+   **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen.<br>
+   The Eleventh International Conference on Learning Representations (ICLR), 2023.<br>
    [Paper](https://openreview.net/forum?id=E3ip6qBLF7) [Code](https://github.com/duykhuongnguyen/DiRRAc)
 
-1. Feasible Recourse Plan via Diverse Interpolation
-   **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen.
+1. Feasible Recourse Plan via Diverse Interpolation<br>
+   **Duy Nguyen**, Ngoc Bui, and Viet Anh Nguyen.<br>
+   The 26th International Conference on Artificial Intelligence and Statistics (AISTATS), 2023.<br>
    [Paper](https://arxiv.org/abs/2302.11213) [Code](https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation)
 
-1. Robust Bayesian Recourse
-   Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen.
+1. Robust Bayesian Recourse<br>
+   Tuan-Duy H. Nguyen, Ngoc Bui, **Duy Nguyen**, Man-Chung Yue, and Viet Anh Nguyen.<br>
+   The 38th Conference on Uncertainty in Artificial Intelligence (UAI), 2022.<br>
    [Paper](https://openreview.net/forum?id=BqIM6SIoqgq) [Code](https://github.com/VinAIResearch/robust-bayesian-recourse)
 
-1. Counterfactual Plans under Distributional Ambiguity
-   Ngoc Bui, **Duy Nguyen**, and Viet Anh Nguyen.
+1. Counterfactual Plans under Distributional Ambiguity<br>
+   Ngoc Bui, **Duy Nguyen**, and Viet Anh Nguyen.<br>
+   The Tenth International Conference on Learning Representations (ICLR), 2022.<br>
    [Paper](https://openreview.net/forum?id=noaG7SrPVK0) [Code](https://github.com/ngocbh/COPA)
 
 # 🎖 Honors and Awards
