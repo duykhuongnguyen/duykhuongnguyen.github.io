@@ -104,7 +104,7 @@ My research focuses on mechanistic interpretability and inference-time intervent
 
 **Counterfactual Plans under Distributional Ambiguity**<br>
    Ngoc Bui, **Duy Nguyen**, and Viet Anh Nguyen.<br>
-   <em>The Tenth International Conference on Learning Representations (ICLR), 2022.</em> [Paper](https://openreview.net/forum?id=noaG7SrPVK0) [Code](https://github.com/ngocbh/COPA) <br><br>
+   <em>The Tenth International Conference on Learning Representations (ICLR), 2022.</em> [Paper](https://openreview.net/forum?id=noaG7SrPVK0) [Code](https://github.com/ngocbh/COPA)
 
 # 🎖 Honors and Awards
 - *October 2022*: Honorable Mention - INFORMS Undergraduate Operations Research Prize
