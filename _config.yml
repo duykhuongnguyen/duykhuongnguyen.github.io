@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Duy Nguyen"
-description              : "Ph.D. student in Computer Science at UNC Chapel Hill"
+description              : "Ph.D. Student in Computer Science at UNC Chapel Hill"
 repository               : "duykhuongnguyen/duykhuongnguyen.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=y323M_cAAAAJ&hl=vi&authuser=1"
-  email            : "duykhuongnguyen277@gmail.com"
+  email            : "duykng@cs.unc.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
