@@ -19,7 +19,7 @@ redirect_from:
 
 # About Me
 
-I am a second-year Ph.D. student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)’s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor's degree in Computer Science from Hanoi University of Science and Technology in 2022.
+I am a second-year Ph.D. Student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)’s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor's degree in Computer Science from Hanoi University of Science and Technology in 2022.
 
 My research focuses on mechanistic interpretability and inference-time interventions for interpreting and monitoring the behaviors of (multimodal) LLMs. Additionally, I am interested in post-training methods for LLMs, including Reinforcement Learning from Human Feedback (RLHF) and Reinforcement Learning with Verifiable Rewards (RLVR).
 
@@ -126,7 +126,7 @@ My research focuses on mechanistic interpretability and inference-time intervent
 <div class="pub-list">
 
 <div class="pub-card">
-  <div class="pub-card-title">LASeR: Learning to Adaptively Select Reward Models with Multi-Arm Bandits</div>
+  <div class="pub-card-title">LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits</div>
   <div class="pub-card-authors">
     <strong>Duy Nguyen</strong>*, Archiki Prasad*, Elias Stengel-Eskin, Mohit Bansal
   </div>
