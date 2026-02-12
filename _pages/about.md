@@ -28,10 +28,10 @@ My research focuses on mechanistic interpretability and inference-time intervent
 # 🔥 News
 
 <ul class="news-timeline">
-  <!-- <li>
+  <li>
     <span class="news-timeline__date">February 2026</span>
     <span class="news-timeline__content">New preprint <a href="https://arxiv.org/abs/2602.03696" target="_blank" rel="noopener">Conflict-Resolving and Sharpness-Aware Minimization for Generalized Knowledge Editing with Multiple Updates</a> on resolving conflicts and improving generalization and stability for knowledge editing with multiple updates.</span>
-  </li> -->
+  </li>
   <li>
       <span class="news-timeline__date">September 2025</span>
       <span class="news-timeline__content">Our paper <a href="https://arxiv.org/abs/2410.01735" target="_blank" rel="noopener">LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits</a> is accepted to NeurIPS 2025!</span>
