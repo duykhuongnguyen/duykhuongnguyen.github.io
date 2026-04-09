@@ -19,15 +19,19 @@ redirect_from:
 
 # About Me
 
-I am a second-year Ph.D. Student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)’s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io), Vietnam. I received a bachelor's degree in Computer Science from Hanoi University of Science and Technology in 2022.
+I am a second-year Ph.D. Student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)’s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io) (now [Qualcomm](https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program)). I received a bachelor's degree in Computer Science from Hanoi University of Science and Technology in 2022.
 
-My research focuses on mechanistic interpretability and inference-time interventions for interpreting and monitoring the behaviors of (multimodal) LLMs. Additionally, I am interested in post-training methods for LLMs, including Reinforcement Learning from Human Feedback (RLHF) and Reinforcement Learning with Verifiable Rewards (RLVR).
+My research focuses on post-training methods for enhancing the capabilities and continually updating the knowledge of (multimodal) LLMs. Additionally, I am interested in mechanistic interpretability and inference-time interventions for interpreting and monitoring the model behaviors.
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 # 🔥 News
 
 <ul class="news-timeline">
+  <li>
+    <span class="news-timeline__date">April 2026</span>
+    <span class="news-timeline__content">Our paper <a href="https://arxiv.org/abs/2507.18043" target="_blank" rel="noopener">GrAInS: Gradient-based Attribution for Inference-Time Steering of LLMs and VLMs</a> is accepted to ACL 2026.</span>
+  </li>
   <li>
     <span class="news-timeline__date">February 2026</span>
     <span class="news-timeline__content">New preprint <a href="https://arxiv.org/abs/2602.03696" target="_blank" rel="noopener">Conflict-Resolving and Sharpness-Aware Minimization for Generalized Knowledge Editing with Multiple Updates</a> on resolving conflicts and improving generalization and stability for knowledge editing with multiple updates.</span>
@@ -39,10 +43,6 @@ My research focuses on mechanistic interpretability and inference-time intervent
   <li>
       <span class="news-timeline__date">August 2025</span>
       <span class="news-timeline__content">Our paper <a href="https://arxiv.org/abs/2501.15758" target="_blank" rel="noopener">Distributional Surgery for Language Model Activations</a> is accepted to EMNLP 2025 Findings!</span>
-  </li>
-  <li>
-    <span class="news-timeline__date">July 2025</span>
-    <span class="news-timeline__content">New preprint <a href="https://arxiv.org/abs/2507.18043" target="_blank" rel="noopener">GrAInS: Gradient-based Attribution for Inference-Time Steering of LLMs and VLMs</a> on using gradient attribution for steering LLMs and VLMs.</span>
   </li>
   <li>
     <span class="news-timeline__date">May 2025</span>
@@ -128,6 +128,25 @@ My research focuses on mechanistic interpretability and inference-time intervent
 </div>
 </div> -->
 <div class="pub-list">
+
+<div class="pub-card">
+  <div class="pub-card-title">GrAInS: Gradient-based Attribution for Inference-Time Steering of LLMs and VLMs</div>
+  <div class="pub-card-authors">
+    <strong>Duy Nguyen</strong>, Archiki Prasad, Elias Stengel-Eskin, Mohit Bansal
+  </div>
+  <div class="pub-card-meta">
+    <a href="https://2025.aclweb.org/">ACL 2026</a> | Association for Computational Linguistics
+  </div>
+  <div class="pub-card-links">
+    <button class="pub-card-btn" type="button" data-toggle="abstract" data-target="abstract-grains">Abstract</button>
+    <a class="pub-card-btn" href="https://arxiv.org/abs/2507.18043" target="_blank" rel="noopener">Paper</a>
+    <a class="pub-card-btn" href="https://github.com/duykhuongnguyen/GrAInS" target="_blank" rel="noopener">Code</a>
+  </div>
+  <div class="pub-card-abstract" id="abstract-grains" hidden>
+    <p>Inference-time steering methods offer a lightweight alternative to fine-tuning large language models (LLMs) and vision-language models (VLMs) by modifying internal activations at test time without updating model weights. However, most existing approaches rely on fixed, global intervention vectors, overlook the causal influence of individual input tokens, and fail to leverage informative gradients from the model's logits, particularly in multimodal settings where visual and textual inputs contribute unevenly. To address these limitations, we introduce GrAInS, an inference-time steering approach that operates across both language-only and vision-language models and tasks. GrAInS uses contrastive, gradient-based attribution via Integrated Gradients to identify the top-k most influential tokens, both positively and negatively attributed based on their contribution to preferred versus dispreferred outputs. These tokens are then used to construct directional steering vectors that capture semantic shifts from undesirable to desirable behavior. During inference, GrAInS adjusts hidden activations at transformer layers guided by token-level attribution signals, and normalizes activations to preserve representational scale. This enables fine-grained, interpretable, and modular control over model behavior, without retraining or auxiliary supervision. Empirically, GrAInS consistently outperforms both fine-tuning and existing steering baselines: it achieves a 13.22% accuracy gain on TruthfulQA using Llama-3.1-8B, reduces hallucination rates on MMHal-Bench from 0.624 to 0.514 with LLaVA-1.6-7B, and improves alignment win rates on SPA-VL by 8.11%, all while preserving the model's fluency and general capabilities.
+    </p>
+  </div>
+</div>
 
 <div class="pub-card">
   <div class="pub-card-title">LASeR: Learning to Adaptively Select Reward Models with Multi-Armed Bandits</div>
@@ -320,6 +339,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="award-stack">
   <div class="award-card">
+    <div class="award-card__icon" aria-hidden="true">🌟</div>
+    <div class="award-card__body">
+      <span class="award-card__date">October 2025</span>
+      <div class="award-card__title">NeurIPS 2025 Scholar Award</div>
+      <div class="award-card__meta">NeurIPS</div>
+    </div>
+  </div>
+  <div class="award-card">
     <div class="award-card__icon" aria-hidden="true">🏅</div>
     <div class="award-card__body">
       <span class="award-card__date">October 2022</span>
@@ -328,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
   </div>
   <div class="award-card">
-    <div class="award-card__icon" aria-hidden="true">🏆</div>
+    <div class="award-card__icon" aria-hidden="true">🌟</div>
     <div class="award-card__body">
       <span class="award-card__date">October 2022</span>
       <div class="award-card__title">Best Thesis Presentation Award</div>
@@ -374,7 +401,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <span class="experience-date">August 2022 – August 2024</span>
     <div class="experience-body">
       <div class="experience-role">Research Resident</div>
-      <div class="experience-org">VinAI Research · Vietnam</div>
+      <div class="experience-org">VinAI Research (now Qualcomm) · Vietnam</div>
     </div>
   </li>
 </ul>
