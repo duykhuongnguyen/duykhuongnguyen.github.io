@@ -718,6 +718,17 @@ footer.sticky-bottom {
 
   .publication-award-note {
     color: var(--global-danger-block-title) !important;
+
+    a {
+      color: inherit;
+      border-bottom: 1px dashed currentColor;
+
+      &:hover {
+        color: inherit;
+        border-bottom-style: solid;
+        text-decoration: none;
+      }
+    }
   }
 
   h1 {

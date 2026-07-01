@@ -158,8 +158,13 @@
         <div class="periodical">
           {{ periodical | strip }}
         </div>
-        <div class="periodical{% if entry.note contains 'Honorable Mention at INFORMS Undergraduate Operations Research Prize' %} publication-award-note{% endif %}">
-          {{ entry.note | strip }}
+        {% assign informs_prize_note = "Honorable Mention at INFORMS Undergraduate Operations Research Prize" %}
+        <div class="periodical{% if entry.note contains informs_prize_note %} publication-award-note{% endif %}">
+          {%- if entry.note contains informs_prize_note -%}
+            Honorable Mention at <a href="https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Undergraduate-Operations-Research-Prize">INFORMS Undergraduate Operations Research Prize</a>
+          {%- else -%}
+            {{ entry.note | strip }}
+          {%- endif -%}
         </div>
 
           <!-- Links/Buttons -->
