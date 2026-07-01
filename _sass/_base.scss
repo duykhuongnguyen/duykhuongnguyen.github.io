@@ -635,9 +635,9 @@ footer.sticky-bottom {
   }
 
   .news-date {
-    width: 6rem;
-    min-width: 6rem;
-    padding-right: 1rem;
+    width: 9.5rem;
+    min-width: 9.5rem;
+    padding-right: 1.25rem;
     white-space: nowrap;
   }
 
@@ -717,7 +717,7 @@ footer.sticky-bottom {
   margin-top: 2rem;
 
   .publication-award-note {
-    color: var(--global-danger-block-title);
+    color: var(--global-danger-block-title) !important;
   }
 
   h1 {
