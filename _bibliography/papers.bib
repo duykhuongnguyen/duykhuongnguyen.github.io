@@ -45,7 +45,7 @@
 
 @inproceedings{nguyen2025laser,
   title = {{LASeR}: Learning to Adaptively Select Reward Models with Multi-Armed Bandits},
-  author = {Duy Nguyen and Archiki Prasad and Elias Stengel-Eskin and Mohit Bansal},
+  author = {Duy Nguyen* and Archiki Prasad* and Elias Stengel-Eskin and Mohit Bansal},
   booktitle = {Advances in Neural Information Processing Systems},
   year = {2025},
   abbr = {NeurIPS},
@@ -53,7 +53,6 @@
   url = {https://arxiv.org/abs/2410.01735},
   pdf = {https://arxiv.org/pdf/2410.01735.pdf},
   code = {https://github.com/duykhuongnguyen/LASeR-MAB},
-  note = {* Equal contribution},
   abstract = {Reward Models (RMs) are crucial to aligning large language models (LLMs), but the degree to which an RM specialized to one task generalizes to new tasks is often not known a priori, often making using only one fixed RM to train LLMs suboptimal. However, optimizing LLMs with multiple RMs simultaneously can incur a prohibitively high computational cost and lead to conflicting signals from different RMs that may degrade performance. To address these challenges, we introduce LASeR, which frames reward model selection as a multi-armed bandit problem, efficiently and iteratively training LLMs using multiple RMs by selecting the most well-suited RM for each instance. On commonsense and math reasoning tasks, LASeR boosts iterative LLM training, improving the absolute average accuracy of Llama-3-8B over three datasets by 2.67\% over an ensemble of RM scores while also showing superior efficiency. On WildChat, LASeR leads to a 72.69\% AlpacaEval win rate over the RM score ensemble baseline. Extending to long-context generation, LASeR improves by 2.96 F1 points on single-document QA tasks and 2.97 F1 points on few-shot learning over the RM score ensemble baseline with best-of-n sampling.},
   bibtex_show = {true},
   selected = {true}
