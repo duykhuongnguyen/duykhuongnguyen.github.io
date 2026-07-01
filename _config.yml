@@ -94,6 +94,18 @@ cronitor_analytics:
 google_site_verification:
 bing_site_verification:
 
+# Giscus comments
+giscus:
+  repo:
+  category: Comments
+  mapping: title
+  strict: 1
+  reactions_enabled: 1
+  input_position: bottom
+  theme: preferred_color_scheme
+  emit_metadata: 0
+  lang: en
+
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
@@ -146,10 +158,20 @@ keep_files:
   - .git
 
 plugins:
+  - jekyll-archives
+  - jekyll-diagrams
   - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
   - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-toc
+  - jekyll-twitter-plugin
   - jemoji
 
 defaults:
@@ -160,10 +182,33 @@ defaults:
 
 sass:
   style: compressed
-  sourcemap: never
 
 display_tags: []
 display_categories: []
+
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
+
+# -----------------------------------------------------------------------------
+# Jekyll Archives
+# -----------------------------------------------------------------------------
+
+jekyll-archives:
+  enabled: [year, tags, categories]
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -234,7 +279,7 @@ external_links:
   exclude:
 
 imagemagick:
-  enabled: false
+  enabled: true
   widths:
     - 480
     - 800
@@ -248,6 +293,14 @@ imagemagick:
     - ".tiff"
   output_formats:
     webp: "-resize 800x"
+
+# -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+jekyll-diagrams:
+    # configuration, see https://github.com/zhustec/jekyll-diagrams.
+    # feel free to comment out this section if not using jekyll diagrams.
 
 # -----------------------------------------------------------------------------
 # Optional features
