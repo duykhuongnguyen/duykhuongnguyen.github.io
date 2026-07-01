@@ -43,6 +43,36 @@
   selected = {true}
 }
 
+@article{nguyen2026avsd,
+  title = {{AVSD}: Adaptive-View Self-Distillation by Balancing Consensus and Teacher-Specific Privileged Signals},
+  author = {Duy Nguyen and Hanqi Xiao and Archiki Prasad and Zaid Khan and Anirban Das and Austin Zhang and Sambit Sahu and Hyunji Lee and Elias Stengel-Eskin and Mohit Bansal},
+  journal = {arXiv preprint arXiv:2605.20643},
+  year = {2026},
+  abbr = {arXiv},
+  arxiv = {2605.20643},
+  url = {https://arxiv.org/abs/2605.20643},
+  pdf = {https://arxiv.org/pdf/2605.20643.pdf},
+  code = {https://github.com/duykhuongnguyen/AVSD},
+  abstract = {Self-distillation enables language models to learn on-policy from their own trajectories by using the same model as both student and teacher, with the teacher being conditioned on privileged information unavailable to the student. Such information can come in different types or views, such as solutions, demonstrations, feedback, or final answers. This setup provides dense token-level feedback without relying on a separate external model, but creates a fundamental asymmetry: the teacher may rely on view-specific information that the student cannot access at inference time. Moreover, the best type of privileged information is often task-dependent, making it difficult to choose a single teacher view. In this work, we address both these challenges jointly by introducing AVSD, a novel method of self-distillation with multiple privileged-information views, which reconstructs token-level supervision by separating stable cross-view consensus from view-specific residual signals.},
+  bibtex_show = {true},
+  selected = {false}
+}
+
+@article{nguyen2026conflict,
+  title = {Conflict-Resolving and Sharpness-Aware Minimization for Generalized Knowledge Editing with Multiple Updates},
+  author = {Duy Nguyen and Hanqi Xiao and Archiki Prasad and Elias Stengel-Eskin and Hyunji Lee and Mohit Bansal},
+  journal = {arXiv preprint arXiv:2602.03696},
+  year = {2026},
+  abbr = {arXiv},
+  arxiv = {2602.03696},
+  url = {https://arxiv.org/abs/2602.03696},
+  pdf = {https://arxiv.org/pdf/2602.03696.pdf},
+  code = {https://github.com/duykhuongnguyen/CoRSA},
+  abstract = {Large language models rely on internal knowledge to solve many downstream tasks, making it crucial to keep them up to date. Since full retraining is expensive, prior work has explored efficient alternatives such as model editing and parameter-efficient fine-tuning. However, these approaches often break down in practice due to poor generalization across inputs, limited stability, and knowledge conflict. To address these limitations, we propose CoRSA, a parameter-efficient, holistic training framework for knowledge editing with multiple updates. CoRSA improves generalization to different input forms, enhances stability across multiple updates by minimizing loss curvature, and resolves conflicts by maximizing the margin between new and prior knowledge.},
+  bibtex_show = {true},
+  selected = {false}
+}
+
 @inproceedings{nguyen2025laser,
   title = {{LASeR}: Learning to Adaptively Select Reward Models with Multi-Armed Bandits},
   author = {Duy Nguyen* and Archiki Prasad* and Elias Stengel-Eskin and Mohit Bansal},
@@ -87,6 +117,21 @@
   selected = {true}
 }
 
+@article{bui2024coverage,
+  title = {Coverage-Validity-Aware Algorithmic Recourse},
+  author = {Ngoc Bui and Duy Nguyen and Man-Chung Yue and Viet Anh Nguyen},
+  journal = {Operations Research},
+  year = {2025},
+  abbr = {OR},
+  arxiv = {2311.11349},
+  url = {https://arxiv.org/abs/2311.11349},
+  pdf = {https://arxiv.org/pdf/2311.11349.pdf},
+  code = {https://github.com/ngocbh/cvas},
+  abstract = {Algorithmic recourse is a prominent technique to promote explainability, transparency, and ethics of machine learning models. Existing algorithmic recourse approaches often assume an invariant predictive model; however, the predictive model is usually updated when new data arrives. Thus, a recourse that is valid with respect to the present model may become invalid for the future model. To resolve this issue, we propose a framework to generate model-agnostic recourse that is robust to model shifts. Our framework first builds a coverage-validity-aware linear surrogate of the nonlinear model, then generates recourse with respect to the linear surrogate. We establish a theoretical connection between this surrogate and minimax probability machines and demonstrate the usefulness and robustness of the framework.},
+  bibtex_show = {true},
+  selected = {false}
+}
+
 @inproceedings{nguyen2024coldstart,
   title = {Cold-start Recommendation by Personalized Embedding Region Elicitation},
   author = {Hieu Nguyen and Duy Nguyen and Khoa Doan and Viet Anh Nguyen},
@@ -101,17 +146,16 @@
   selected = {false}
 }
 
-@article{bui2024coverage,
-  title = {Coverage-Validity-Aware Algorithmic Recourse},
-  author = {Ngoc Bui and Duy Nguyen and Man-Chung Yue and Viet Anh Nguyen},
-  journal = {Operations Research},
+@article{nguyen2024cost,
+  title = {Cost-Adaptive Recourse Recommendation by Adaptive Preference Elicitation},
+  author = {Duy Nguyen and Bao Nguyen and Viet Anh Nguyen},
+  journal = {arXiv preprint arXiv:2402.15073},
   year = {2024},
-  abbr = {OR},
-  arxiv = {2311.11349},
-  url = {https://arxiv.org/abs/2311.11349},
-  pdf = {https://arxiv.org/pdf/2311.11349.pdf},
-  code = {https://github.com/ngocbh/cvas},
-  abstract = {Algorithmic recourse is a prominent technique to promote explainability, transparency, and ethics of machine learning models. Existing algorithmic recourse approaches often assume an invariant predictive model; however, the predictive model is usually updated when new data arrives. Thus, a recourse that is valid with respect to the present model may become invalid for the future model. To resolve this issue, we propose a framework to generate model-agnostic recourse that is robust to model shifts. Our framework first builds a coverage-validity-aware linear surrogate of the nonlinear model, then generates recourse with respect to the linear surrogate. We establish a theoretical connection between this surrogate and minimax probability machines and demonstrate the usefulness and robustness of the framework.},
+  abbr = {arXiv},
+  arxiv = {2402.15073},
+  url = {https://arxiv.org/abs/2402.15073},
+  pdf = {https://arxiv.org/pdf/2402.15073.pdf},
+  abstract = {Algorithmic recourse recommends a cost-efficient action to a subject to reverse an unfavorable machine learning classification decision. Most existing methods generate recourse under the assumption of complete knowledge about the cost function. In real-world practice, subjects could have distinct preferences, leading to incomplete information about the underlying cost function. This paper proposes a two-step approach integrating preference learning into the recourse generation problem. First, we design a question-answering framework to refine the confidence set of the subject's Mahalanobis matrix cost sequentially. Then, we generate recourse using gradient-based and graph-based cost-adaptive methods that ensure validity while considering the whole confidence set of the cost matrix.},
   bibtex_show = {true},
   selected = {false}
 }
@@ -125,9 +169,10 @@
   url = {https://openreview.net/forum?id=E3ip6qBLF7},
   pdf = {https://openreview.net/pdf?id=E3ip6qBLF7},
   code = {https://github.com/duykhuongnguyen/DiRRAc},
+  note = {<span class="publication-award-note">Honorable Mention at INFORMS 2022 Undergraduate Operations Research Prize</span>},
   abstract = {A recourse action aims to explain an algorithmic decision by showing one way in which an instance could be modified to receive an alternate outcome. Existing recourse generation methods often assume that the machine learning model does not change over time. This assumption does not always hold in practice because of data distribution shifts, and the recourse action may become invalid. We propose the Distributionally Robust Recourse Action framework, which generates a recourse action that has high probability of being valid under a mixture of model shifts. We formulate the robustified recourse setup as a min-max optimization problem and suggest a projected gradient descent algorithm to find robust recourse.},
   bibtex_show = {true},
-  selected = {false}
+  selected = {true}
 }
 
 @inproceedings{nguyen2023feasible,
