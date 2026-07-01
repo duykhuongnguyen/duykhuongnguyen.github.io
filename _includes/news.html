@@ -1,6 +1,6 @@
           <div class="news">
             {% if site.news != blank -%}
-            <div class="table-responsive" style="max-height: 20vw; overflow-y: auto;">
+            <div class="table-responsive" style="max-height: 18vw; overflow-y: auto;">
               <table class="table table-sm table-borderless">
               {%- assign news = site.news | reverse -%}
               {% for item in news %}
