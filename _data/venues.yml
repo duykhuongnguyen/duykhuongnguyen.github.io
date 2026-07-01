@@ -1,0 +1,31 @@
+"ACL":
+  url: https://www.aclweb.org/
+  color: "var(--global-theme-color)"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "var(--global-theme-color)"
+
+"EMNLP":
+  url: https://2025.emnlp.org/
+  color: "var(--global-theme-color)"
+
+"UAI":
+  url: https://www.auai.org/
+  color: "var(--global-theme-color)"
+
+"OR":
+  url: https://pubsonline.informs.org/journal/opre
+  color: "var(--global-theme-color)"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "var(--global-theme-color)"
+
+"AISTATS":
+  url: https://aistats.org/
+  color: "var(--global-theme-color)"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#c92a2a"

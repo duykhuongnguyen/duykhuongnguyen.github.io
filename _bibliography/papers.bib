@@ -1,0 +1,175 @@
+---
+---
+
+% Templates for future arXiv papers. Uncomment one, add an at-sign before article, and replace placeholders when ready.
+% article{arxivplaceholderone2026,
+%   title = {Paper Title},
+%   author = {Duy Nguyen and Coauthor Name},
+%   journal = {arXiv preprint arXiv:XXXX.XXXXX},
+%   year = {2026},
+%   abbr = {arXiv},
+%   arxiv = {XXXX.XXXXX},
+%   pdf = {https://arxiv.org/pdf/XXXX.XXXXX.pdf},
+%   code = {https://github.com/duykhuongnguyen/repository-name},
+%   abstract = {Short abstract goes here.},
+%   selected = {true}
+% }
+%
+% article{arxivplaceholdertwo2026,
+%   title = {Another Paper Title},
+%   author = {Duy Nguyen and Coauthor Name},
+%   journal = {arXiv preprint arXiv:YYYY.YYYYY},
+%   year = {2026},
+%   abbr = {arXiv},
+%   arxiv = {YYYY.YYYYY},
+%   pdf = {https://arxiv.org/pdf/YYYY.YYYYY.pdf},
+%   code = {https://github.com/duykhuongnguyen/repository-name},
+%   abstract = {Short abstract goes here.},
+%   selected = {true}
+% }
+
+@inproceedings{nguyen2026grains,
+  title = {{GrAInS}: Gradient-based Attribution for Inference-Time Steering of {LLMs} and {VLMs}},
+  author = {Duy Nguyen and Archiki Prasad and Elias Stengel-Eskin and Mohit Bansal},
+  booktitle = {Proceedings of the Annual Meeting of the Association for Computational Linguistics},
+  year = {2026},
+  abbr = {ACL},
+  arxiv = {2507.18043},
+  url = {https://arxiv.org/abs/2507.18043},
+  pdf = {https://arxiv.org/pdf/2507.18043.pdf},
+  code = {https://github.com/duykhuongnguyen/GrAInS},
+  abstract = {Inference-time steering methods offer a lightweight alternative to fine-tuning large language models (LLMs) and vision-language models (VLMs) by modifying internal activations at test time without updating model weights. However, most existing approaches rely on fixed, global intervention vectors, overlook the causal influence of individual input tokens, and fail to leverage informative gradients from the model's logits, particularly in multimodal settings where visual and textual inputs contribute unevenly. To address these limitations, we introduce GrAInS, an inference-time steering approach that operates across both language-only and vision-language models and tasks. GrAInS uses contrastive, gradient-based attribution via Integrated Gradients to identify the top-k most influential tokens, both positively and negatively attributed based on their contribution to preferred versus dispreferred outputs. These tokens are then used to construct directional steering vectors that capture semantic shifts from undesirable to desirable behavior. During inference, GrAInS adjusts hidden activations at transformer layers guided by token-level attribution signals, and normalizes activations to preserve representational scale. This enables fine-grained, interpretable, and modular control over model behavior, without retraining or auxiliary supervision. Empirically, GrAInS consistently outperforms both fine-tuning and existing steering baselines: it achieves a 13.22\% accuracy gain on TruthfulQA using Llama-3.1-8B, reduces hallucination rates on MMHal-Bench from 0.624 to 0.514 with LLaVA-1.6-7B, and improves alignment win rates on SPA-VL by 8.11\%, all while preserving the model's fluency and general capabilities.},
+  bibtex_show = {true},
+  selected = {true}
+}
+
+@inproceedings{nguyen2025laser,
+  title = {{LASeR}: Learning to Adaptively Select Reward Models with Multi-Armed Bandits},
+  author = {Duy Nguyen and Archiki Prasad and Elias Stengel-Eskin and Mohit Bansal},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2025},
+  abbr = {NeurIPS},
+  arxiv = {2410.01735},
+  url = {https://arxiv.org/abs/2410.01735},
+  pdf = {https://arxiv.org/pdf/2410.01735.pdf},
+  code = {https://github.com/duykhuongnguyen/LASeR-MAB},
+  note = {* Equal contribution},
+  abstract = {Reward Models (RMs) are crucial to aligning large language models (LLMs), but the degree to which an RM specialized to one task generalizes to new tasks is often not known a priori, often making using only one fixed RM to train LLMs suboptimal. However, optimizing LLMs with multiple RMs simultaneously can incur a prohibitively high computational cost and lead to conflicting signals from different RMs that may degrade performance. To address these challenges, we introduce LASeR, which frames reward model selection as a multi-armed bandit problem, efficiently and iteratively training LLMs using multiple RMs by selecting the most well-suited RM for each instance. On commonsense and math reasoning tasks, LASeR boosts iterative LLM training, improving the absolute average accuracy of Llama-3-8B over three datasets by 2.67\% over an ensemble of RM scores while also showing superior efficiency. On WildChat, LASeR leads to a 72.69\% AlpacaEval win rate over the RM score ensemble baseline. Extending to long-context generation, LASeR improves by 2.96 F1 points on single-document QA tasks and 2.97 F1 points on few-shot learning over the RM score ensemble baseline with best-of-n sampling.},
+  bibtex_show = {true},
+  selected = {true}
+}
+
+@inproceedings{nguyen2025matsteer,
+  title = {Multi-Attribute Steering of Language Models via Targeted Intervention},
+  author = {Duy Nguyen and Archiki Prasad and Elias Stengel-Eskin and Mohit Bansal},
+  booktitle = {Proceedings of the Annual Meeting of the Association for Computational Linguistics},
+  year = {2025},
+  abbr = {ACL},
+  url = {https://aclanthology.org/2025.acl-long.1007/},
+  pdf = {https://aclanthology.org/2025.acl-long.1007.pdf},
+  code = {https://github.com/duykhuongnguyen/MAT-Steer},
+  abstract = {Inference-time intervention (ITI) has emerged as a promising method for steering large language model behavior in a particular direction by intervening on token representations without costly updates to the model's parameters. However, existing ITI approaches fail to scale to multi-attribute settings with conflicts, such as enhancing helpfulness while also reducing toxicity. To address this, we introduce Multi-Attribute Targeted Steering (MAT-Steer), a steering framework designed for selective token-level intervention across multiple attributes. We achieve this by learning steering vectors using an alignment objective that shifts the model's internal representations of undesirable outputs closer to desirable ones while enforcing sparsity and orthogonality among vectors for different attributes, thereby reducing inter-attribute conflicts. MAT-Steer outperforms existing ITI and parameter-efficient fine-tuning approaches across question answering and generative tasks.},
+  bibtex_show = {true},
+  selected = {true}
+}
+
+@inproceedings{nguyen2025distributional,
+  title = {Distributional Surgery for Language Model Activations},
+  author = {Bao Nguyen and Binh Nguyen and Duy Nguyen and Viet Anh Nguyen},
+  booktitle = {Findings of the Conference on Empirical Methods in Natural Language Processing},
+  year = {2025},
+  abbr = {EMNLP},
+  arxiv = {2501.15758},
+  url = {https://arxiv.org/abs/2501.15758},
+  pdf = {https://arxiv.org/pdf/2501.15758.pdf},
+  code = {https://github.com/nguyenngocbaocmt02/OT-Intervention},
+  abstract = {Language models are prone to occasionally undesirable generations, such as harmful or toxic content, despite their impressive capability to produce texts that appear accurate and coherent. This paper presents a two-stage approach to detect and mitigate undesirable content generations by rectifying activations. First, we train an ensemble of layerwise classifiers to detect undesirable content using activations by minimizing a smooth surrogate of the risk-aware score. Then, for contents that are detected as undesirable, we propose layerwise distributional intervention policies that perturb attention heads minimally while guaranteeing probabilistically the effectiveness of the intervention. Benchmarks on several language models and datasets show that our method outperforms baselines in reducing undesirable output.},
+  bibtex_show = {true},
+  selected = {true}
+}
+
+@inproceedings{nguyen2024coldstart,
+  title = {Cold-start Recommendation by Personalized Embedding Region Elicitation},
+  author = {Hieu Nguyen and Duy Nguyen and Khoa Doan and Viet Anh Nguyen},
+  booktitle = {Proceedings of the Conference on Uncertainty in Artificial Intelligence},
+  year = {2024},
+  abbr = {UAI},
+  url = {https://openreview.net/forum?id=ciOkU5YpvU},
+  pdf = {https://openreview.net/pdf?id=ciOkU5YpvU},
+  code = {https://github.com/HieuNT91/recsys},
+  abstract = {Rating elicitation is important for recommender systems to perform well at cold-starting, where systems need to recommend items to a newly arrived user with no prior knowledge about the user's preference. Existing elicitation methods employ a fixed set of items to learn the user's preference and then infer preferences on the remaining items. Using a fixed seed set can limit recommendation performance because the seed set is unlikely optimal for all new users with diverse preferences. This paper addresses this challenge using a two-phase, personalized elicitation scheme. The system asks users to rate popular items in a burn-in phase, then sequentially asks the user to rate adaptive items to refine the preference and user representation. The system represents the user's embedding value by a region estimate and generates recommendations by considering the user's preference region.},
+  bibtex_show = {true},
+  selected = {false}
+}
+
+@article{bui2024coverage,
+  title = {Coverage-Validity-Aware Algorithmic Recourse},
+  author = {Ngoc Bui and Duy Nguyen and Man-Chung Yue and Viet Anh Nguyen},
+  journal = {Operations Research},
+  year = {2024},
+  abbr = {OR},
+  arxiv = {2311.11349},
+  url = {https://arxiv.org/abs/2311.11349},
+  pdf = {https://arxiv.org/pdf/2311.11349.pdf},
+  code = {https://github.com/ngocbh/cvas},
+  abstract = {Algorithmic recourse is a prominent technique to promote explainability, transparency, and ethics of machine learning models. Existing algorithmic recourse approaches often assume an invariant predictive model; however, the predictive model is usually updated when new data arrives. Thus, a recourse that is valid with respect to the present model may become invalid for the future model. To resolve this issue, we propose a framework to generate model-agnostic recourse that is robust to model shifts. Our framework first builds a coverage-validity-aware linear surrogate of the nonlinear model, then generates recourse with respect to the linear surrogate. We establish a theoretical connection between this surrogate and minimax probability machines and demonstrate the usefulness and robustness of the framework.},
+  bibtex_show = {true},
+  selected = {false}
+}
+
+@inproceedings{nguyen2023dirrac,
+  title = {Distributionally Robust Recourse Action},
+  author = {Duy Nguyen and Ngoc Bui and Viet Anh Nguyen},
+  booktitle = {Proceedings of the International Conference on Learning Representations},
+  year = {2023},
+  abbr = {ICLR},
+  url = {https://openreview.net/forum?id=E3ip6qBLF7},
+  pdf = {https://openreview.net/pdf?id=E3ip6qBLF7},
+  code = {https://github.com/duykhuongnguyen/DiRRAc},
+  abstract = {A recourse action aims to explain an algorithmic decision by showing one way in which an instance could be modified to receive an alternate outcome. Existing recourse generation methods often assume that the machine learning model does not change over time. This assumption does not always hold in practice because of data distribution shifts, and the recourse action may become invalid. We propose the Distributionally Robust Recourse Action framework, which generates a recourse action that has high probability of being valid under a mixture of model shifts. We formulate the robustified recourse setup as a min-max optimization problem and suggest a projected gradient descent algorithm to find robust recourse.},
+  bibtex_show = {true},
+  selected = {false}
+}
+
+@inproceedings{nguyen2023feasible,
+  title = {Feasible Recourse Plan via Diverse Interpolation},
+  author = {Duy Nguyen and Ngoc Bui and Viet Anh Nguyen},
+  booktitle = {Proceedings of the International Conference on Artificial Intelligence and Statistics},
+  year = {2023},
+  abbr = {AISTATS},
+  arxiv = {2302.11213},
+  url = {https://arxiv.org/abs/2302.11213},
+  pdf = {https://arxiv.org/pdf/2302.11213.pdf},
+  code = {https://github.com/duykhuongnguyen/recourse-plan-diverse-interpolation},
+  abstract = {Explaining algorithmic decisions and recommending actionable feedback is increasingly important for machine learning applications. Significant efforts have been invested in finding diverse sets of recourses to cover the wide spectrum of users' preferences, but existing work often neglects the requirement that recourses should be close to the data manifold. We propose an approach that explicitly directs a diverse set of actionable recourses toward the data manifold. We find a diverse set of prototypes in the favorable class, construct an actionability graph, and find feasible paths to each prototype. Experimental results show that the method produces recourses close to the data manifold while delivering a better cost-diversity trade-off than existing approaches.},
+  bibtex_show = {true},
+  selected = {false}
+}
+
+@inproceedings{nguyen2022robust,
+  title = {Robust Bayesian Recourse},
+  author = {Tuan-Duy H. Nguyen and Ngoc Bui and Duy Nguyen and Man-Chung Yue and Viet Anh Nguyen},
+  booktitle = {Proceedings of the Conference on Uncertainty in Artificial Intelligence},
+  year = {2022},
+  abbr = {UAI},
+  url = {https://openreview.net/forum?id=BqIM6SIoqgq},
+  pdf = {https://openreview.net/pdf?id=BqIM6SIoqgq},
+  code = {https://github.com/VinAIResearch/robust-bayesian-recourse},
+  abstract = {Algorithmic recourse aims to recommend informative feedback to overturn an unfavorable machine learning decision. We introduce Bayesian recourse, a model-agnostic recourse that minimizes the posterior probability odds ratio. We also present its min-max robust counterpart to hedge against future changes in machine learning model parameters. The robust counterpart explicitly takes possible perturbations of data into account in a Gaussian mixture ambiguity set prescribed using optimal transport distance. We show that the worst-case objective can be decomposed into a series of two-dimensional optimization subproblems, making the min-max recourse problem amenable to gradient descent.},
+  bibtex_show = {true},
+  selected = {false}
+}
+
+@inproceedings{bui2022counterfactual,
+  title = {Counterfactual Plans under Distributional Ambiguity},
+  author = {Ngoc Bui and Duy Nguyen and Viet Anh Nguyen},
+  booktitle = {Proceedings of the International Conference on Learning Representations},
+  year = {2022},
+  abbr = {ICLR},
+  url = {https://openreview.net/forum?id=noaG7SrPVK0},
+  pdf = {https://openreview.net/pdf?id=noaG7SrPVK0},
+  code = {https://github.com/ngocbh/COPA},
+  abstract = {Counterfactual explanations are attracting significant attention due to the applications of machine learning models in consequential domains. A counterfactual plan consists of multiple possibilities to modify an instance so that the model's prediction will be altered. As the predictive model can be updated with future data, a counterfactual plan may become ineffective or infeasible with respect to future model parameters. We study counterfactual plans under model uncertainty, where the distribution of model parameters is partially prescribed using first- and second-moment information. We propose tools to bound the probability of feasibility for a given counterfactual plan and provide corrective methods to improve feasibility.},
+  bibtex_show = {true},
+  selected = {false}
+}
