@@ -12,25 +12,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
+  contents: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
-
-      - name: Configure Pages
-        id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -45,25 +34,12 @@ jobs:
         env:
           JEKYLL_ENV: production
         run: |
-          bundle exec jekyll build --lsi --baseurl "${{ steps.pages.outputs.base_path }}"
+          bundle exec jekyll build --lsi
           purgecss -c purgecss.config.js
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  deploy:
-    if: github.event_name != 'pull_request'
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v5
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: _site
