@@ -1,6 +1,6 @@
 # Duy Nguyen
 
-Personal academic website for Duy Nguyen, built with Jekyll and the al-folio theme.
+Duy Nguyen's personal website.
 
 ## Local development
 
