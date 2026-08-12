@@ -35,3 +35,5 @@ My current areas of focus include:
 - <span class="font-weight-bold">LLM Reasoning:</span> Developing methods that strengthen the reasoning, problem-solving, and decision-making capabilities of LLMs.
 - <span class="font-weight-bold">Safety and Security for LLM Agents:</span> Building robust mechanisms for detecting, verifying, and preventing unsafe or insecure behaviors in language models and agentic systems.
 - <span class="font-weight-bold">Evolving Agents and Continual Learning:</span> Designing agents that can update their knowledge, memory, and behavior over time while efficiently reusing past experience.
+
+If you have any questions about my work, would like to chat about research, or are interested in collaborating with me, feel free to reach me at [{{ site.email }}](mailto:{{ site.email | encode_email }}).
