@@ -26,7 +26,7 @@ experience:
     logo_alt: Amazon Science
 ---
 
-I am a second-year Ph.D. student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)'s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io) (now [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program)).
+I am a third-year Ph.D. student in [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/)'s group ([MURGe Lab](https://murgelab.cs.unc.edu/)) at UNC Chapel Hill. Previously, I was a Research Resident under the supervision of [Prof. Viet Anh Nguyen](https://vietanhnguyen.net) at [VinAI Research](https://www.vinai.io) (now [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-residency-program)).
 
 My research aims to develop capable, trustworthy, and adaptive AI systems, with a focus on large language models (LLMs) and autonomous agents that can reason, act, and learn in dynamic environments.
 

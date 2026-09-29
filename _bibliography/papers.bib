@@ -27,6 +27,20 @@
 %   abstract = {Short abstract goes here.},
 %   selected = {true}
 % }
+@inproceedings{nguyen2026avsd,
+  title = {{AVSD}: Adaptive-View Self-Distillation by Balancing Consensus and Teacher-Specific Privileged Signals},
+  author = {Duy Nguyen and Hanqi Xiao and Archiki Prasad and Zaid Khan and Anirban Das and Austin Zhang and Sambit Sahu and Hyunji Lee and Elias Stengel-Eskin and Mohit Bansal},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year = {2026},
+  abbr = {NeurIPS},
+  arxiv = {2605.20643},
+  url = {https://arxiv.org/abs/2605.20643},
+  pdf = {https://arxiv.org/pdf/2605.20643.pdf},
+  code = {https://github.com/duykhuongnguyen/AVSD},
+  abstract = {Self-distillation enables language models to learn on-policy from their own trajectories by using the same model as both student and teacher, with the teacher being conditioned on privileged information unavailable to the student. Such information can come in different types or views, such as solutions, demonstrations, feedback, or final answers. This setup provides dense token-level feedback without relying on a separate external model, but creates a fundamental asymmetry: the teacher may rely on view-specific information that the student cannot access at inference time. Moreover, the best type of privileged information is often task-dependent, making it difficult to choose a single teacher view. In this work, we address both these challenges jointly by introducing AVSD, a novel method of self-distillation with multiple privileged-information views, which reconstructs token-level supervision by separating stable cross-view consensus from view-specific residual signals.},
+  bibtex_show = {true},
+  selected = {true}
+}
 
 @inproceedings{nguyen2026grains,
   title = {{GrAInS}: Gradient-based Attribution for Inference-Time Steering of {LLMs} and {VLMs}},
@@ -41,21 +55,6 @@
   abstract = {Inference-time steering methods offer a lightweight alternative to fine-tuning large language models (LLMs) and vision-language models (VLMs) by modifying internal activations at test time without updating model weights. However, most existing approaches rely on fixed, global intervention vectors, overlook the causal influence of individual input tokens, and fail to leverage informative gradients from the model's logits, particularly in multimodal settings where visual and textual inputs contribute unevenly. To address these limitations, we introduce GrAInS, an inference-time steering approach that operates across both language-only and vision-language models and tasks. GrAInS uses contrastive, gradient-based attribution via Integrated Gradients to identify the top-k most influential tokens, both positively and negatively attributed based on their contribution to preferred versus dispreferred outputs. These tokens are then used to construct directional steering vectors that capture semantic shifts from undesirable to desirable behavior. During inference, GrAInS adjusts hidden activations at transformer layers guided by token-level attribution signals, and normalizes activations to preserve representational scale. This enables fine-grained, interpretable, and modular control over model behavior, without retraining or auxiliary supervision. Empirically, GrAInS consistently outperforms both fine-tuning and existing steering baselines: it achieves a 13.22\% accuracy gain on TruthfulQA using Llama-3.1-8B, reduces hallucination rates on MMHal-Bench from 0.624 to 0.514 with LLaVA-1.6-7B, and improves alignment win rates on SPA-VL by 8.11\%, all while preserving the model's fluency and general capabilities.},
   bibtex_show = {true},
   selected = {true}
-}
-
-@article{nguyen2026avsd,
-  title = {{AVSD}: Adaptive-View Self-Distillation by Balancing Consensus and Teacher-Specific Privileged Signals},
-  author = {Duy Nguyen and Hanqi Xiao and Archiki Prasad and Zaid Khan and Anirban Das and Austin Zhang and Sambit Sahu and Hyunji Lee and Elias Stengel-Eskin and Mohit Bansal},
-  journal = {arXiv preprint arXiv:2605.20643},
-  year = {2026},
-  abbr = {arXiv},
-  arxiv = {2605.20643},
-  url = {https://arxiv.org/abs/2605.20643},
-  pdf = {https://arxiv.org/pdf/2605.20643.pdf},
-  code = {https://github.com/duykhuongnguyen/AVSD},
-  abstract = {Self-distillation enables language models to learn on-policy from their own trajectories by using the same model as both student and teacher, with the teacher being conditioned on privileged information unavailable to the student. Such information can come in different types or views, such as solutions, demonstrations, feedback, or final answers. This setup provides dense token-level feedback without relying on a separate external model, but creates a fundamental asymmetry: the teacher may rely on view-specific information that the student cannot access at inference time. Moreover, the best type of privileged information is often task-dependent, making it difficult to choose a single teacher view. In this work, we address both these challenges jointly by introducing AVSD, a novel method of self-distillation with multiple privileged-information views, which reconstructs token-level supervision by separating stable cross-view consensus from view-specific residual signals.},
-  bibtex_show = {true},
-  selected = {false}
 }
 
 @article{nguyen2026conflict,
